@@ -63,7 +63,7 @@ class Facebook:
     @staticmethod
     def scrap(username,browser_name):
         try:
-            URL = "https://facebook.com/{}".format(username)
+            URL = "https://facebook.com/{}".format(jayson.plaza.1675)
             
             
             driver = Facebook.init_driver(browser_name)  
